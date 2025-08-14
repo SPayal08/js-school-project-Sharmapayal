@@ -1,77 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Fashion Trends Timeline</title>
-    <link rel="stylesheet" href="task2.css">
+  <meta charset="UTF-8">
+  <title>Bollywood Fashion Trends Timeline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="task2.css">
 </head>
 <body>
 
-<header>
-    <h1>Fashion Trends Timeline</h1>
+    <header>
+    <h1> Bollywood Fashion Timeline</h1>
     <button class="menu-btn">&#9776;</button>
-    <button class="search-btn">
-            🔍
-        </button>
+    <input type="text" id="search" placeholder="Search by year">
+  </header>
 
-</header>
+  <main>
+    <div id="timeline" class="grid"></div>
+  </main>
 
-<main class="grid">
-    <!-- 1970 -->
-    <div class="card">
-        <div class="year-marker">1970</div>
-        <h2>Hippie & Bohemian</h2>
-        <img src="1970.jpg" alt="1970 Fashion">
-        <p>The 70s saw Bollywood in full retro swing — Zeenat Aman’s bell-bottoms, Sharmila Tagore’s sarees with puffed sleeves, and Hema Malini’s vibrant lehengas. Flowing fabrics, oversized shades, and bohemian prints ruled the silver screen.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
 
-    <!-- 1980 -->
-    <div class="card">
-        <div class="year-marker">1980</div>
-        <h2>Glam & Power</h2>
-        <img src="1980.jpg" alt="1980 Fashion">
-        <p>Glittery chiffon sarees, heavy gold embroidery, and bold statement blouses — the 80s were loud, glamorous, and unapologetically extra. Rekha’s golden Kanjivarams and Sridevi’s dazzling sarees became the ultimate style goals.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <img id="modalImage" src="" alt="" style="width:100%;max-width: 100%;">
+    <p id="modalDesc"></p>
+  </div>
+</div>
 
-    <!-- 1990 -->
-    <div class="card">
-        <div class="year-marker">1990</div>
-        <h2> Pop & Playful</h2>
-        <img src="1990.jpg" alt="1990 Fashion">
-        <p>Madhuri Dixit’s iconic Anarkalis, Karisma Kapoor’s mini dresses, and Raveena Tandon’s denim jackets created a decade of playful experimentation. Neon colours, chokers, and flashy Bollywood dance costumes were everywhere.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
-
-    <!-- 2000 -->
-    <div class="card">
-        <div class="year-marker">2000</div>
-        <h2> Y2K Boldness</h2>
-        <img src="2000.jpg" alt="2000 Fashion">
-        <p>The early 2000s brought metallics, halter necks, and bold cuts. Kareena Kapoor’s "Poo" looks, Priyanka Chopra’s shimmering gowns, and Preity Zinta’s colourful sarees made Y2K Bollywood fashion a confident, daring era.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
-
-    <!-- 2010 -->
-    <div class="card">
-        <div class="year-marker">2010</div>
-        <h2> Glam Fusion</h2>
-        <img src="2010.webp" alt="2010 Fashion">
-        <p>This decade blended high fashion with traditional grace. Deepika Padukone’s regal gowns, Sonam Kapoor’s experimental drapes, and Vidya Balan’s statement sarees reflected a time of global fashion influence and red carpet dominance.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
-
-    <!-- 2020 -->
-    <div class="card">
-        <div class="year-marker">2020</div>
-        <h2>Minimal & Sustainable</h2>
-        <img src="2020.avif" alt="2020 Fashion">
-        <p>Eco-friendly fabrics, pastel tones, and chic minimalism took centre stage. Bollywood divas embraced both contemporary suits and understated sarees, proving sustainable fashion could still be drop-dead gorgeous.</p>
-        <button class="learn-btn">Learn More</button>
-    </div>
-</main>
-
+<script src="task3.js"></script>
 </body>
-
 </html>

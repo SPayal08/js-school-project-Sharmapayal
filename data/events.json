@@ -1,0 +1,58 @@
+[
+  {
+    "year": "1970",
+    "title": "Hippie & Bohemian",
+    "description": "The 70s saw Bollywood in full retro swing — Zeenat Aman’s bell-bottoms, Sharmila Tagore’s sarees with puffed sleeves, and Hema Malini’s vibrant lehengas.",
+    "imageURL": "1970.jpg",
+    "category": "Retro"
+  },
+  {
+    "year": "1980",
+    "title": "Glam & Power",
+    "description": "Glittery chiffon sarees, heavy gold embroidery, and bold statement blouses — the 80s were loud, glamorous, and unapologetically extra.",
+    "imageURL": "1980.jpg",
+    "category": "Glam"
+  },
+  {
+    "year": "1990",
+    "title": "Pop & Playful",
+    "description": "Madhuri Dixit’s iconic Anarkalis, Karisma Kapoor’s mini dresses, and Raveena Tandon’s denim jackets created a decade of playful experimentation.",
+    "imageURL": "1990.jpg",
+    "category": "Pop"
+  },
+  {
+    "year": "2000",
+    "title": "Y2K Boldness",
+    "description": "The early 2000s brought metallics, halter necks, and bold cuts. Kareena Kapoor’s 'Poo' looks made Y2K Bollywood fashion a daring era.",
+    "imageURL": "2000.jpg",
+    "category": "Y2K"
+  },
+  {
+    "year": "2010",
+    "title": "Glam Fusion",
+    "description": "Deepika Padukone’s regal gowns and Sonam Kapoor’s experimental drapes reflected a time of global fashion influence.",
+    "imageURL": "2010.webp",
+    "category": "Fusion"
+  },
+  {
+    "year": "2020",
+    "title": "Minimal & Sustainable",
+    "description": "Eco-friendly fabrics, pastel tones, and chic minimalism took centre stage.",
+    "imageURL": "2020.avif",
+    "category": "Sustainable"
+  },
+  {
+    "year": "2023",
+    "title": "Street Style",
+    "description": "Bollywood embraced streetwear-inspired outfits and sneakers.",
+    "imageURL": "2023.jpg",
+    "category": "Futuristic"
+  },
+  {
+    "year": "2025",
+    "title": "Hyper-Smart",
+    "description": "Predicted trends include tech-integrated fabrics and bold metallics.",
+    "imageURL": "2025.webp",
+    "category": "Techwear"
+  }
+]
