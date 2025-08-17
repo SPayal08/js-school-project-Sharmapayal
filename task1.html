@@ -2,33 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bollywood Fashion Trends Timeline</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="task2.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Timeline</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Fashion Timeline</h1>
+  <div id="timeline"></div>
 
-    <header>
-    <h1> Bollywood Fashion Timeline</h1>
-    <button class="menu-btn">&#9776;</button>
-    <input type="text" id="search" placeholder="Search by year">
-  </header>
-
-  <main>
-    <div id="timeline" class="grid"></div>
-  </main>
-
-
-<!-- Modal -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <span id="closeModal" class="close">&times;</span>
-    <h2 id="modalTitle"></h2>
-    <img id="modalImage" src="" alt="" style="width:100%;max-width: 100%;">
-    <p id="modalDesc"></p>
+  <!-- Modal -->
+  <div id="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2 id="modalTitle"></h2>
+    </div>
   </div>
-</div>
 
-<script src="task3.js"></script>
+  <script type="module" src="dist/index.js"></script>
 </body>
 </html>
