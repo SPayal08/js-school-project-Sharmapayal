@@ -9,7 +9,7 @@ export function renderEvents(events: EventData[], container: HTMLElement): void 
       <img src="${event.imageURL}" alt="${event.title}" />
       <h3>${event.year} - ${event.title}</h3>
       <p>${event.description}</p>
-      <button class="learn-more" data-title="${event.title}">Learn More</button>
+      <button class="learn-more" data-title="${event.title}" data-content="${event.description}">Learn More</button>
     `;
     container.appendChild(card);
   });
