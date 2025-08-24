@@ -1,15 +1,31 @@
- # Fashion Trends Timeline – Stage 1
+Timeline App (TypeScript Refactor)
 
-##  Theme: 2010 – Rise of Fast Fashion
+This project introduces static typing and modular code structure by converting the JavaScript-based timeline app into TypeScript with strict mode enabled.
 
-This is the static HTML-only layout for the Fashion Timeline web project.
+Key Changes
 
-### Stage 1 Features:
-- Semantic HTML structure only
-- A `<header>` with logo/title and theme toggle button
-- A `<nav>` with year list: 2000, 2010, 2020
-- A `<main>` section containing:
-  - `<section id="timeline">` with a card for 2010
-  - `<article>` representing the event
-  - `<figure>` and `<img>` to show the fashion trend
-- A placeholder `<div id="modal">` for future pop-up info
+TypeScript Initialization
+
+Added tsconfig.json with "strict": true.
+
+Configured compiler to output compiled files into dist/.
+
+File Conversion
+
+script.js → src/index.ts.
+
+Defined interfaces/types for timeline event data.
+
+Code split into ES modules:
+
+fetcher.ts → Handles loading event data.
+
+renderer.ts → Renders timeline markers.
+
+modal.ts → Controls modal open/close logic.
+
+Build Scripts
+
+Compile TypeScript → JavaScript using tsc.
+
+Bundler support (Vite/Webpack/Rollup) can also be added for production builds.
