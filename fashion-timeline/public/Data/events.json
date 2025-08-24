@@ -1,0 +1,50 @@
+[
+  {
+    "year": 1970,
+    "title": "The Beatles Break Up",
+    "description": "The Beatles, one of the most influential bands in history, officially disbanded in 1970, marking the end of an era in music.",
+    "image": "/1970.jpg"
+  },
+  {
+    "year": 1980,
+    "title": "CNN is Founded",
+    "description": "Ted Turner launches the Cable News Network (CNN), the first 24-hour all-news television channel, revolutionizing how news is consumed.",
+    "image": "/1980.jpg"
+  },
+  {
+    "year": 1990,
+    "title": "Hubble Space Telescope is Launched",
+    "description": "NASA launches the Hubble Space Telescope, providing humanity with breathtaking images and groundbreaking discoveries about the universe.",
+    "image": "/1990.jpg"
+  },
+  {
+    "year": 2000,
+    "title": "International Space Station is Inhabited",
+    "description": "The first crew of astronauts arrives at the International Space Station (ISS), beginning a continuous human presence in space.",
+    "image": "/2000.jpg"
+  },
+  {
+    "year": 2010,
+    "title": "The Arab Spring Begins",
+    "description": "A series of pro-democracy uprisings and protests spread across the Middle East and North Africa, leading to significant political changes.",
+    "image": "/2010.webp"
+  },
+  {
+    "year": 2020,
+    "title": "COVID-19 Pandemic",
+    "description": "The World Health Organization declares the novel coronavirus outbreak a global pandemic, leading to widespread lockdowns and societal changes.",
+    "image": "/2020.avif"
+  },
+  {
+    "year": 2023,
+    "title": "First Images from James Webb Telescope",
+    "description": "The James Webb Space Telescope releases its first full-color images, offering unprecedented views of the early universe.",
+    "image": "/2023.jpg"
+  },
+  {
+      "year": 2025,
+      "title": "Artemis III Mission",
+      "description": "NASA's Artemis III mission is scheduled to land the first woman and the next man on the Moon, marking a new chapter in lunar exploration.",
+      "image": "/2025.webp"
+  }
+]
