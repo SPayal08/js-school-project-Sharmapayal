@@ -1,15 +1,16 @@
- # Fashion Trends Timeline – Stage 1
+Interactive Timeline (Vanilla JS)
 
-##  Theme: 2010 – Rise of Fast Fashion
+This project is a lightweight interactive timeline built with vanilla JavaScript.
+It loads event data from a JSON file, renders timeline markers dynamically, and displays event details in a modal.
 
-This is the static HTML-only layout for the Fashion Timeline web project.
+Features
 
-### Stage 1 Features:
-- Semantic HTML structure only
-- A `<header>` with logo/title and theme toggle button
-- A `<nav>` with year list: 2000, 2010, 2020
-- A `<main>` section containing:
-  - `<section id="timeline">` with a card for 2010
-  - `<article>` representing the event
-  - `<figure>` and `<img>` to show the fashion trend
-- A placeholder `<div id="modal">` for future pop-up info
+Event data stored in data/events.json.
+
+At least 8 sample events (fields: year, title, description, imageURL, category).
+
+Dynamically fetches and renders events into the timeline.
+
+Clicking a marker opens a modal with full event details.
+
+Modal can be closed via a "close" button.
